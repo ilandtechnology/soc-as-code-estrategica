@@ -31,3 +31,5 @@ Scripts/Export-Playbooks.ps1
 # Sentinel documenter output — contains tenant configuration; never commit.
 # Delivered via the workflow's private GitHub Actions artefact instead.
 SecurityDocs/
+federated-main.json
+federated-tags.json

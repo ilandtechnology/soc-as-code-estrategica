@@ -83,7 +83,7 @@ resource onboardingState 'Microsoft.SecurityInsights/onboardingStates@2024-09-01
 
 // Workspace audit logs and metrics — ships management-plane activity to itself
 resource lawDiagnostics 'Microsoft.Insights/diagnosticSettings@2021-05-01-preview' = {
-  name: 'law-diagnostics'
+  name: 'diagnosticSettings'
   scope: logAnalyticsWorkspace
   properties: {
     workspaceId: logAnalyticsWorkspace.id
@@ -110,7 +110,7 @@ resource sentinelHealthSettings 'Microsoft.SecurityInsights/settings@2023-02-01-
 }
 
 resource sentinelHealthDiagnostics 'Microsoft.Insights/diagnosticSettings@2021-05-01-preview' = {
-  name: 'sentinel-health-diagnostics'
+  name: 'sentinelHealthDiagnostics'
   scope: sentinelHealthSettings
   properties: {
     workspaceId: logAnalyticsWorkspace.id
