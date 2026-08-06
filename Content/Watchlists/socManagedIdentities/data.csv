@@ -1,2 +1,2 @@
 ServicePrincipalId,DisplayName,ApplicationId,Purpose,Owner
-00000000-0000-0000-0000-000000000000,Example SPN,00000000-0000-0000-0000-000000000001,Seed row,SOC
+5a1fe23d-2e8f-4fac-8df8-0ab75edfd965,github-sentinel-oidc,84b72da6-78ab-4469-8149-6e536f32947a,GitHub OIDC for Sentinel as Code,SOC
